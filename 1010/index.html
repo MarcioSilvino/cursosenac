@@ -6,12 +6,35 @@
     <title>Formulario</title>
 </head>
 <body>
+
         <form action="obrigado.html">
             <label>Nome:</label>    <br> <input type="text"><br>
             <label>Email</label>    <br> <input type="email"><br>
             <label>Senha</label>    <br> <input type="password"><br>
+           
+            <p>Qual linguagem quer aprender:</p>
+            <input type="radio" value="HTML">
+            <label for="html"> HTML</label><br>
+            <input type="radio" value="CSS">
+            <label for="css"> CSS</label><br>
+            <input type="radio" value="JavaScript">
+            <label for="javascript"> JavaScript</label> <br>
+            <br>
+           
             <input type="submit" volue="enviar">
+            <input type="reset" value="Limpar"> <br>
 
+            <label for="renda">Renda:</label>
+                <select id="renda" name="renda">
+                    
+                    <option value="1">1 sal minimo</option>
+                    <option value="2">2 sal minimo</option>
+                    <option value="3">3 sal minimo</option>
+                    <option value="mais">Mais de 3</option>
+                </select>
+                <br>
+
+           
         </form>
 </body>
 </html>
