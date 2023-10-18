@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0%;
+}
+body{
+    background-color: rgb(16, 69, 202);
+}
+div{
+    height:80px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#primeira{
+    background-color: rgb(143, 151, 151);
+    overflow: scroll;
+}
+#segunda{
+    background-color: rgb(20, 164, 231);
+    margin-top: 10px;
+}
